@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+
+  <style>
+    body {
+      padding: 100px 100px;
+      display: flex;
+      background-color: yellow;
+      border-radius: 2%;
+      box-shadow: 5px 5px 15px 5px #000000;
+    }
+
+    h2 {
+      color: #000000;
+      font-weight: 800;
+      display: inline-block;
+      position: relative;
+      top: -26px;
+    }
+
+    #avatar {
+      padding-top: 10px;
+      display: inline;
+    }
+
+    .card {
+      background-color: whitesmoke;
+      border: 2px solid black;
+      border-radius: 20px;
+      width: 360px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card:hover {
+      box-shadow: 5px 5px 15px 2px #000000;
+    }
+
+    h1 {
+      color: black;
+      font-weight: bold;
+      font-size: large;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+
+    h3 {
+      padding-top: 10px;
+      font-weight: 400;
+      color: #000000;
+    }
+
+    #img {
+      border-radius: 10px;
+    }
+
+    .button {
+      background-color: yellow;
+      border-color: yellow;
+      color: #000000;
+      border-radius: 0px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="card-content">
+      <img src="assets/images/illustration-article.svg" alt="An image" id="img">
+      <button class="button">Learning</button>
+      <div>
+        <div>
+          <h3>Published 21 Dec 2023</h3>
+        </div>
+        <div>
+          <h1>HTML & CSS foundations</h1>
+        </div>
+        <div>
+          <p>These languages are the backbone of every
+            website, defining structure, content, and
+            presentation.</p>
+          <div>
+            <img src="assets/images/image-avatar.webp" alt="image of a persons head" id="avatar">
+            <h2>Greg Hooper lllllll</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
